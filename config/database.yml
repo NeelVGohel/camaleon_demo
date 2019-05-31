@@ -1,0 +1,15 @@
+default: &default
+ adapter: postgresql
+ encoding: unicode
+ pool: 10
+ username: postgres
+ password: root
+ host: localhost
+
+development:
+ <<: *default
+ database: camaleon_demo_dev
+
+test:
+ <<: *default
+ database: camaleon_demo_test
