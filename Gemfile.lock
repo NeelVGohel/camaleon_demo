@@ -52,8 +52,6 @@ GEM
     addressable (2.6.0)
       public_suffix (>= 2.0.2, < 4.0)
     arel (8.0.0)
-    autoprefixer-rails (9.5.1.1)
-      execjs
     aws-eventstream (1.0.3)
     aws-partitions (1.170.0)
     aws-sdk-core (3.54.1)
@@ -72,9 +70,6 @@ GEM
       aws-eventstream (~> 1.0, >= 1.0.2)
     bcrypt (3.1.12)
     bindex (0.7.0)
-    bootstrap-sass (3.4.1)
-      autoprefixer-rails (>= 5.2.1)
-      sassc (>= 2.0.0)
     breadcrumbs_on_rails (3.0.1)
     builder (3.2.3)
     byebug (11.0.1)
@@ -267,7 +262,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bootstrap-sass (~> 3.4.1)
   byebug
   cama_tinymce_template!
   camaleon_cms
@@ -276,7 +270,6 @@ DEPENDENCIES
   draper (~> 3)
   font-awesome-rails
   jbuilder (~> 2.5)
-  jquery-rails
   listen (>= 3.0.5, < 3.2)
   pg (>= 0.18, < 2.0)
   puma (~> 3.7)

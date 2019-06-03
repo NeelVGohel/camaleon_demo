@@ -35,9 +35,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'camaleon_cms'
 gem 'draper', '~> 3' # for Rails 5+
 gem 'cama_tinymce_template', github: 'owen2345/Camaleon-Tinymce-Templates'
-gem 'bootstrap-sass', '~> 3.4.1'
 gem 'sassc-rails', '>= 2.1.0'
-gem 'jquery-rails'
 gem 'font-awesome-rails'
 
 group :development, :test do

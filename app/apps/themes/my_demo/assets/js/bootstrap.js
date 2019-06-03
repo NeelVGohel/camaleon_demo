@@ -42,11 +42,62 @@ $(document).ready(function(){
 			768: {
 					items: 3
 			},
-			992: {
-					items: 4
+			993: {
+					items: 5
 			},
 			1400: {
 					items: 5
+			}
+		}
+	});
+
+	$('.technology-carosal').owlCarousel({
+		loop: true,
+		margin: 30,
+		nav: false,
+		responsiveClass: true,
+		dots:true,
+		autoplay: false,
+		smartSpeed: 3000,
+		responsive: {
+			0: {
+					items: 1
+			},
+			992: {
+				items: 2
+			},
+			1200:{
+				items: 3	
+			}
+		}
+	});
+
+	$('.industry-trends-carosal').owlCarousel({
+		loop: true,
+		margin: 30,
+		nav: false,
+		responsiveClass: true,
+		dots:true,
+		autoplay: false,
+		smartSpeed: 3000,
+		responsive: {
+			0: {
+					items: 1
+			},
+			577: {
+					items: 2
+			},
+			768: {
+					items: 3
+			},
+			993: {
+					items: 4
+			},
+			1200: {
+					items: 5
+			},
+			1367: {
+					items: 6
 			}
 		}
 	});
