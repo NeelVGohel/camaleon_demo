@@ -1,0 +1,149 @@
+<main class="main-content">
+  <!-- First Section -->
+  <section  data-section-name="home">
+  <%= image_tag 'first-section.jpg', class: "bg"%>
+    <div class="container">
+      <div class="inner-content">
+        <video width="320" height="240">
+          <source src="video/movie.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <h1><small>A personal message from our</small> Global CEO, Punit Renjen | AP CEO, Cindy Hook</h1>
+      </div>
+    </div>
+    <div class="footer">
+      <p>Find out why Deloitte is the right auditor for DBS</p>
+      <a href="#our-promise" ><%= image_tag 'go-back.png'%></a>
+    </div>
+  </section>
+  <!-- Second Section -->
+  <section data-section-name="our-promise">
+    <div class="top-banner">
+      <%= image_tag 'our-promise.jpg', class: "bg"%>
+      <div class="banner-content">
+        <ul>
+          <li><%= image_tag 'logo.png', class: "logo"%></li>
+          <li><%= image_tag 'dbs.png', class: "logo"%></li>
+        </ul>
+        <h2>Our promise to you</h2>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <h4>Below, we have set out where we see shared values and a strong cultural fit between DBS and Deloitte.</h4>
+      <ul>
+        <li class="item">
+        <%= image_tag 'promise1.png'%>
+          <label class="h4">Refresh. <br/>
+            Redefine. <br/>
+            Reimagine</label>
+        </li>
+        <li class="item">
+        <%= image_tag 'promise2.png'%>
+          <label class="h4">Our Purpose ofmaking an impactthat matters</label>
+        </li>
+        <li class="item">
+        <%= image_tag 'promise3.png'%>
+          <label class="h4">Unlockingvalue through technology</label>
+        </li>
+        <li class="item">
+          <%= image_tag 'promise4.png'%>
+          <label class="h4">At the forefrontof regulatory andindustry trends</label>
+        </li>
+        <li class="item">
+          <%= image_tag 'promise5.png'%>
+          <label class="h4">Your feedback matters to us</label>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-- Third Section -->
+  <section data-section-name="reimagine">
+  <%= image_tag 'reimagine.jpg', class: "bg-img"%>
+    <div>
+      <div>
+        <div class="content">
+          fgjkjhgfd
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Fourth Section -->
+  <!-- <section class="panel fourth-block animatedParent" data-section-name="purpose-of-making">
+      <img src="purpose-of-making.jpg" class="bg-img">
+      <div class="animated delay-250">
+        <div class="left-panel animated slideInLeft delay-500">
+          <div class="content">
+            fgjkjhgfd
+          </div>        
+        </div>
+      </div>
+    </section> -->
+  <!-- Fifth Section -->
+  <!-- <section class="panel fifth-block animatedParent" data-section-name="technology">
+      <img src="technology.jpg" class="bg-img">
+      <div class="animated delay-250">
+        <div class="left-panel animated slideInLeft delay-500">
+          <div class="content">
+            fgjkjhgfd
+          </div>        
+        </div>
+      </div>
+    </section> -->
+  <!-- Sixth Section -->
+  <!-- <section class="panel sixth-block animatedParent" data-section-name="industry-trends">
+      <img src="industry-trends.jpg" class="bg-img">
+      <div class="animated delay-250">
+        <div class="left-panel animated slideInLeft delay-500">
+          <div class="content">
+            fgjkjhgfd
+          </div>        
+        </div>
+      </div>
+    </section> -->
+  <!-- Seventh Section -->
+  <!-- <section class="panel seven-block animatedParent" data-section-name="contact-us">
+      <img src="contact-us.jpg" class="bg-img">
+      <div class="animated delay-250">
+        <div class="left-panel animated slideInLeft delay-500">
+          <div class="content">
+            fgjkjhgfd
+          </div>        
+        </div>
+      </div>
+    </section> -->
+</main>
+
+<div class="container">
+  <h2>Carousel Example</h2>  
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="https://www.w3schools.com/bootstrap/la.jpg" alt="Los Angeles" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="https://www.w3schools.com/bootstrap/chicago.jpg" alt="Chicago" style="width:100%;">
+      </div>
+    
+      <div class="item">
+        <img src="https://www.w3schools.com/bootstrap/ny.jpg" alt="New york" style="width:100%;">
+      </div>
+    </div>
+
+    
+  </div>
+</div>
+
+<script>
+$('#myCarousel').bind('mousewheel', function() {
+    $(this).carousel('next');
+});
+</script>

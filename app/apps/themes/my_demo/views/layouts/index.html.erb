@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- META SECTION -->
+    <title><%= current_site.the_title %></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- END META SECTION -->
+    <%= stylesheet_link_tag theme_asset_path("css/main") %>
+    <%= javascript_include_tag theme_asset_path("js/main.js") %>
+    <%= raw the_head %>
+  </head>
+  <body>
+    <header class="animatedParent">
+      <section class="top-bar animated delay-250">
+        <div class="container-fluid">
+          <a href="#"><%= image_tag 'logo-white.png', class: "logo" %></a>
+          <div class="hamburger hamburger--spin">
+            <div class="hamburger-box">
+              <div class="hamburger-inner"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <nav class="main-navigation">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Our Promise to you</a></li>
+      </ul>
+    </nav>
+    <div class="main-content">
+      <%= yield %>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "name" : "My Demo",
+  "description" : "",
+  "thumb" : "images/image.png",
+  "helpers": [
+    "Themes::MyDemo::MainHelper"
+  ],
+  "hooks": {
+    "on_active": ["my_demo_on_install_theme"],
+    "on_inactive": ["my_demo_on_uninstall_theme"],
+    "on_theme_settings": ["my_demo_settings"]
+    //here all your hooks
+  }
+}
